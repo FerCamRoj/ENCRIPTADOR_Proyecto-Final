@@ -1,7 +1,7 @@
 const textArea = document.querySelector(".text__area");
 const mensaje = document.querySelector(".text__area__2");
-const parrafoPrimero = document.querySelector(".text__area__2__p1");
-const parrafoSegundo = document.querySelector(".text__area__2__p2");
+const parrafoPrimero = document.querySelector(".mensaje__inicial1");
+const parrafoSegundo = document.querySelector(".mensaje__inicial2");
 const botonCopiar = document.querySelector (".boton__copiar")
 const mensajesIniciales = document.querySelector(".mensajes__iniciales");
 
