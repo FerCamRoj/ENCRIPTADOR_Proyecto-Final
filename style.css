@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    background: #F3F5FC;
+}
+
+
+body{
+    height: 100vh;
+    box-sizing:border-box;
+}   
+
+.imagen__alura{
+        padding-top: 5px;
+        margin-left: 10px;
+        width: 6%;
+}
+
+main{
+    display: flex;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text__area{
+    color: #0A3871;
+    border-style: none;
+    width: 700px;
+    height: 300px;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.referencia{
+    color: #495057;
+    font-size: 0.875rem;
+}
+
+
+.encriptar{
+    background-color: #0A3871;
+    color: #FFFFFF;
+    border-radius: 24px;
+    padding: 10px;
+    width: 250px;
+}
+
+.desencriptar{
+    color: #0A3871;
+    border-radius: 24px;
+    padding: 10px;
+    width: 250px;
+}
+
+.mensaje__encriptado{
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 510px;
+    margin-left: 130px;
+    border-radius: 32px;
+}
+
+.text__area__2 {
+    background-image: url("Mono.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    height: 230px;
+    padding: 0px;
+    color: #495057; 
+    background-color: #FFFFFF;
+    border-style: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 80px;
+  }
+
+.mensajes__iniciales{
+    background-color: #FFFFFF;
+    border-style: none;
+}
+
+.text__area__2__p1{
+    color: #495057; 
+    background-color: #FFFFFF;
+    border-style: none;
+    font-size: 1.25rem;
+    text-align: center; 
+    width: 250px;
+    margin-left: 25px;
+    height: 10%;
+}
+
+.text__area__2__p2{
+    color: #495057; 
+    background-color: #FFFFFF;
+    border-style: none;
+    font-size: 0.875rem;
+    text-align: center;
+    width: 250px;
+    margin-left: 25px;
+}
+
+  .boton__copiar{
+    background-color: #FFFFFF;
+    width: 250px;
+    margin-left: 25px;
+    margin-top: 5px;
+    border-radius: 24px;
+    padding: 10px;
+  }
+
+  @media (max-width: 270px){
+
+    .mensaje__encriptado{
+        flex-direction: column;
+    }
+}
